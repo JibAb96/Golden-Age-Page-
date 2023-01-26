@@ -8,9 +8,8 @@
 body {
     font-family: Bitter, serif;
     color: #835c3b;
-    background-color: #FFF8DC;
-    
 }
+
 h1 , h2 {
     font-family: Raleway, sans-serif;
     text-transform: capitalize;
@@ -52,12 +51,16 @@ header {
     margin-left: 2rem;
 }
 #nav-links li:last-child {
-    padding-right: 5rem;
+    margin-right: 5rem;
 }
 
 #nav-links li a {
     color: inherit;
     text-decoration: none;
+}
+
+#nav-links li:hover {
+    border-bottom: 1px solid #835c3b;
 }
 
 /* hero image */
