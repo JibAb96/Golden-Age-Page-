@@ -8,25 +8,29 @@
 body {
     font-family: Bitter, serif;
     color: #835c3b;
+    overflow-x: hidden;
+    
 }
 
 h1 , h2 {
     font-family: Raleway, sans-serif;
     text-transform: capitalize;
+    color: #d4af37;
 }
 
 /* logo/navigation */
 
 header {
-    margin-top: 1rem;
+    margin: 0.5rem 0.5rem;
+    overflow-x: hidden;
+
 }
 
 #logo {
     display: inline;
-    color: #d4af37;
     letter-spacing: 2px;
     font-size: 280%;
-    padding-left: 2rem;
+    
 }
 #logo a {
     text-decoration: none;
@@ -50,9 +54,6 @@ header {
     display: inline;
     margin-left: 2rem;
 }
-#nav-links li:last-child {
-    margin-right: 5rem;
-}
 
 #nav-links li a {
     color: inherit;
@@ -69,6 +70,7 @@ header {
     height: 80vh;
     width: 100vw;
     overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
@@ -76,4 +78,8 @@ header {
     width: 100vw;
     background: url('../assets/images/al-khwarizmi.jpg') no-repeat center center;
     background-attachment: fixed;
+}
+
+#cover-text {
+    position: absolute;
 }
