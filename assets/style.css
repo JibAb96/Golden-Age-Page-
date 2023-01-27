@@ -21,16 +21,15 @@ h1 , h2 {
 /* logo/navigation */
 
 header {
-    margin: 0.5rem 0.5rem;
+    margin: 0 0.5rem;
     overflow-x: hidden;
-
 }
 
 #logo {
     display: inline;
     letter-spacing: 2px;
     font-size: 280%;
-    
+    padding-top: 0.5rem;
 }
 #logo a {
     text-decoration: none;
@@ -61,7 +60,7 @@ header {
 }
 
 #nav-links li:hover {
-    border-bottom: 1px solid #835c3b;
+    text-decoration: underline;
 }
 
 /* hero image */
@@ -78,8 +77,140 @@ header {
     width: 100vw;
     background: url('../assets/images/al-khwarizmi.jpg') no-repeat center center;
     background-attachment: fixed;
+    z-index: 0;
 }
 
 #cover-text {
     position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 10%;
+    background-color: #835c3b;
 }
+
+#cover-text-content {
+    font-size: 1px;
+    /* "Travelling through time effect" */
+    animation: travel 2s forwards;
+}
+
+ 
+@keyframes travel {
+    from {
+        font-size: 1px;
+    }
+    to {
+        font-size: 30px;
+    }
+}
+
+/* Figures section */
+
+#figures {
+    margin: 10%;
+}
+
+
+#figures h2 {
+    margin: 2.5% auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+ 
+.fig-1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 10px;
+    border: 1px solid #d4af37;
+    margin: 1% 0;
+    border-radius: 20px;
+}
+
+.fig-1 img {
+    width: 30%;
+    height: 30%;
+    margin: 3%;
+}
+
+.fig-1 p {
+    font-weight: 800;
+    margin: 3%;
+}
+
+.fig-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    border: 1px solid #d4af37;
+    margin: 1% 0;
+    border-radius: 20px;
+}
+
+.fig-2 img {
+    width: 20%;
+    height: 20%;
+    margin: 3%;
+}
+
+.fig-2 p {
+    font-weight: 800;
+    margin: 3%;
+}
+
+.fig-3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 10px;
+    border: 1px solid #d4af37;
+    margin: 1% 0;
+    border-radius: 20px;
+}
+
+.fig-3 img {
+    width: 20%;
+    height: 20%;
+    margin: 3%;
+}
+
+.fig-3 p {
+    font-weight: 800;
+    margin: 3%;
+}
+
+span {
+    font-size: 150%;
+}
+
+/* footer */
+
+footer {
+    background-color: #835c3b;
+    width: 100%;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+.social-media i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #D3AC8B;
+    position: relative;
+}
+
+i:hover{
+    top: -10px;
+  }
+ #form-page {
+    background: url('../assets/images/vintage-textured-paper.jpg') no-repeat center center;
+    width: 100%;
+    height: 100%;
+ }
