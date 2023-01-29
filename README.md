@@ -1,0 +1,2 @@
+The Golden Age website is desined to give the user the experience of traveling through different time periods where great scientific discoveries were made.
+The Golden Age site aims to find major figures in scientific history from all regions and times, giving them their flowers while also giving the user information on their contribution to scientific history.
