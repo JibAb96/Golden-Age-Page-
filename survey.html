@@ -26,8 +26,42 @@
         </ul>
     </nav>
     </header>
-    <form action="POST" id="form-page">
-        <h2>Any Suggestions For Major Figures In Scie</h2>
+    <form method="POST" id="form-page" action="https://formdump.codeinstitute.net/">
+        <h2>Any Suggestions For Major Figures In Scientific history</h2>
+        <fieldset>
+        <label for="f-name">First Name:</label>
+        <input type="text" id="f-name" name="first-name" class="text-box" required>
+        
+        <label for="l-name">Last Name:</label>
+        <input type="text" id="l-name" name="last-name" class="text-box" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="text-box" required>
+        
+        <label for="h-figure">Which major figure in scientific history do you suggest we add to the page?</label>
+        <textarea name="figure" id="h-figure" cols="30" rows="3"></textarea>
+        
+        <label for="referral">How did you hear about us?</label>
+        <select id="referral" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Through friends/family</option>
+            <option value="2">Through work colleague</option>
+            <option value="3">Youtube Channel</option>
+            <option value="4">Other</option>
+            </select> 
+            <input type="radio" class="inline" name="recommendation" id="definitely" value="1">
+            <label for="definitely" id="definitely-label">
+                Definitely 
+            </label>
+            <input type="radio" class="inline" id="maybe" name="recommendation" value="2">
+            <label for="maybe" id="maybe-label">
+                Maybe
+            </label>
+            <input type="radio" class="inline" id="notsure" name="recommendation" value="3">
+            <label for="notsure" id="notsure-label">
+                Not Sure
+            </label> 
+        </fieldset>
 
     </form>
 </body>
