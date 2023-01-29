@@ -59,8 +59,14 @@ header {
     text-decoration: none;
 }
 
-#nav-links li:hover {
-    text-decoration: underline;
+
+#nav-links li a:hover {
+    border: 2px solid #d4af37;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #D3AC8B;
+    color: #835c3b;
+    t
 }
 
 /* hero image */
