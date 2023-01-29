@@ -245,8 +245,8 @@ i:hover{
     overflow: hidden;
     }
   input, textarea, select {
-    margin: 10px 0 0 0;
-    width: 90%;
+    margin: 1rem 0 0 0;
+    width: 40%;
     min-height: 2em;
     }
   .inline{
@@ -257,7 +257,7 @@ i:hover{
   input[type="submit"]{
     display: block;
     width: 20%;
-    margin: 1em auto;
+    margin: 1rem 5%;
     height: 2em;
     font-size: 1.1rem;
     border-color: #d4af37;
