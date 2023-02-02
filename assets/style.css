@@ -66,7 +66,6 @@ header {
     padding: 5px;
     background-color: #D3AC8B;
     color: #835c3b;
-    t
 }
 
 /* hero image */
@@ -97,7 +96,7 @@ header {
 #cover-text-content {
     font-size: 1px;
     /* "Travelling through time effect" */
-    animation: travel 1s forwards;
+    animation: travel 5s forwards;
 }
 
  
@@ -109,6 +108,21 @@ header {
         font-size: 30px;
     }
 }
+
+/* About us section */
+
+#about-us{
+    margin: 1% 7%;
+    border: 1px solid #d4af37;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+h2, p {
+    text-align: center;
+    margin: 1%;
+}
+
 
 /* Figures section */
 
@@ -124,7 +138,7 @@ header {
 }
 
  
-.fig-1 {
+.fig-1, .fig-3 {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -140,7 +154,7 @@ header {
     margin: 3%;
 }
 
-.fig-1 p {
+.fig-1 p, .fig-2 p, .fig-3 p {
     font-weight: 800;
     margin: 3%;
 }
@@ -148,22 +162,18 @@ header {
 .fig-2 {
     display: flex;
     flex-direction: row-reverse;
-    gap: 20px;
+    gap: 10px;
     border: 1px solid #d4af37;
     margin: 1% 0;
     border-radius: 20px;
 }
 
-.fig-2 img {
+.fig-2 img, .fig-3 img {
     width: 20%;
     height: 20%;
     margin: 3%;
 }
 
-.fig-2 p {
-    font-weight: 800;
-    margin: 3%;
-}
 
 .fig-3 {
     display: flex;
@@ -175,16 +185,7 @@ header {
     border-radius: 20px;
 }
 
-.fig-3 img {
-    width: 20%;
-    height: 20%;
-    margin: 3%;
-}
 
-.fig-3 p {
-    font-weight: 800;
-    margin: 3%;
-}
 
 span {
     font-size: 150%;
