@@ -58,6 +58,10 @@ The cover text explains what the website main objective and what the user experi
 The image gives a clear indication as to what the website is about.
 <hr>
 
+### About us
+<img src="assets/images/About-us-section.png">
+<br> The About Us section is presented early to ensure the user understand the reason why this website was created.
+
 ### Figures
 <img src="assets/images/figures-section.png">
 <br>The figures section shows the great people involved in the development of science.
