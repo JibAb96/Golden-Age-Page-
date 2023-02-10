@@ -217,7 +217,7 @@ i:hover{
     top: -10px;
   }
  
-  /*Surver page */ 
+  /*Survey page */ 
 
   #form-page {
     background: repeating-linear-gradient(
@@ -253,7 +253,7 @@ i:hover{
     }
   input, textarea, select {
     margin: 1rem 0 0 0;
-    width: 40%;
+    width: 60%;
     min-height: 2em;
     }
   .inline{

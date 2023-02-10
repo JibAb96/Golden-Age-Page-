@@ -79,6 +79,11 @@ The footer section shows the social medial links using font awesome icons. They 
 The background color keeps with brown theme.
 This makes the user feel that they are a part of the website.
 <hr>
+<img src="assets/images/Submt-page.png">
+This is the page that the user will go to once they have submitted their survey answers.
+
+
+<hr>
 
 ## Accessibility
 I've been careful to try to make this website ass accessible as possible. I've done this by:
@@ -141,7 +146,13 @@ I had no bugs when deploying the website as I kept previewing the page and fixin
 ## Validator Testing
 <ul>
  <li>HTML - I used the official W3C validator and found no errors,</li>
+ The index.html page
+ <img src="assets/images/index-html-check.png">
+ The survey page
+ <img src="assets/images/surey-form.chheck.png">
  <li>CSS - I used the official Jigsaw validator and found no errors,</li>
+ The styles.css
+ <img src="assets/images/css-check.png">
  <li>I ran the project through the lighthouse in devtools and found that my accessibilty rating was high.</li>
  <img src="assets/images/dev-tools-html.png">
  </ul>
