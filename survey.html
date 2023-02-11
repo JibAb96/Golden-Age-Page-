@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,63 +10,65 @@
     <link rel="stylesheet" href="assets/style.css">
     <title>Golden Age</title>
 </head>
+
 <body>
     <header>
-     <h1 id="logo"><a href="index.html">Golden Age</a></h1>
-    <nav id="navbar">
-        <ul id="nav-links">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="index.html#figures">Figures</a>
-            </li>
-            <li>
-                <a href="survey.html" class="on">Survey</a>
-            </li>
-        </ul>
-    </nav>
+        <h1 class="logo"><a href="index.html">Golden Age</a></h1>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#figures">Figures</a>
+                </li>
+                <li>
+                    <a href="survey.html" class="on">Survey</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <form method="GET" id="form-page" action="submit.html">
+    <form method="GET" class="form-page" action="submit.html">
         <h2>Golden Age Survey</h2>
         <fieldset>
-        <label for="f-name">First Name:</label>
-        <input type="text" id="f-name" name="first-name" class="text-box" required>
-        
-        <label for="l-name">Last Name:</label>
-        <input type="text" id="l-name" name="last-name" class="text-box" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" class="text-box" required>
-        
-        <label for="h-figure">Which major figure in scientific history <br> do you suggest we add to the page?</label>
-        <textarea name="figure" id="h-figure" cols="30" rows="3" required></textarea>
-        
-        <label for="referral">How did you hear about us?</label>
-        <select id="referral" name="referrer" required>
-            <option value="">(select one)</option>
-            <option value="1">Through friends/family</option>
-            <option value="2">Through work colleague</option>
-            <option value="3">Youtube Channel</option>
-            <option value="4">Other</option>
-            </select> 
+            <label for="f-name">First Name:</label>
+            <input type="text" id="f-name" name="first-name" class="text-box" required>
+
+            <label for="l-name">Last Name:</label>
+            <input type="text" id="l-name" name="last-name" class="text-box" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="text-box" required>
+
+            <label for="h-figure">Which major figure in scientific history <br> do you suggest we add to the
+                page?</label>
+            <textarea name="figure" id="h-figure" cols="30" rows="3" required></textarea>
+
+            <label for="referral">How did you hear about us?</label>
+            <select id="referral" name="referrer" required>
+                <option value="">(select one)</option>
+                <option value="1">Through friends/family</option>
+                <option value="2">Through work colleague</option>
+                <option value="3">Youtube Channel</option>
+                <option value="4">Other</option>
+            </select>
 
             <label>Would you recommend the Golden Age <br> to a friend?</label>
-            
+
             <label for="definitely" id="definitely-label">
-            <input type="radio" class="inline" name="recommend" id="definitely" value="1" required>
-                Definitely 
+                <input type="radio" class="inline" name="recommend" id="definitely" value="1" required>
+                Definitely
             </label>
-            
+
             <label for="maybe" id="maybe-label">
-            <input type="radio" class="inline" id="maybe" name="recommend" value="2">
+                <input type="radio" class="inline" id="maybe" name="recommend" value="2">
                 Maybe
             </label>
-            
+
             <label for="notsure" id="notsure-label">
-            <input type="radio" class="inline" id="notsure" name="recommend" value="3">
+                <input type="radio" class="inline" id="notsure" name="recommend" value="3">
                 Not Sure
-            </label> 
+            </label>
             <input type="submit" value="Submit" id="submit">
         </fieldset>
 
@@ -73,25 +76,25 @@
     <footer>
         <ul class="social-media">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener" 
-                aria-label="Visit our facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener" 
-                aria-label="Visit our twitter page(opens in a new tab)">
-                <i class="fa-brands fa-twitter"></i>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our twitter page(opens in a new tab)">
+                    <i class="fa-brands fa-twitter"></i>
                 </a>
             </li>
             <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener" 
-                aria-label="Visit our youtube page(opens in a new tab)">
-                <i class="fa-brands fa-youtube"></i>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our youtube page(opens in a new tab)">
+                    <i class="fa-brands fa-youtube"></i>
                 </a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener" 
-                aria-label="Visit our instagram page(opens in a new tab)">
-                <i class="fa-brands fa-instagram"></i>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our instagram page(opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i>
                 </a>
             </li>
         </ul>
@@ -99,4 +102,5 @@
     </footer>
     <script src="https://kit.fontawesome.com/a585228d22.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

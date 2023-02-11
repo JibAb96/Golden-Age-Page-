@@ -5,15 +5,22 @@
     margin: 0;
     border: 0;
 }
+
 body {
-    font-family: Bitter, serif;
+    font-family: 'Bitter', serif;
     color: #835c3b;
     overflow-x: hidden;
-    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex: 1;
+
+
 }
 
-h1 , h2 {
-    font-family: Raleway, sans-serif;
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
     color: #d4af37;
 }
@@ -25,23 +32,24 @@ header {
     overflow-x: hidden;
 }
 
-#logo {
+.logo {
     display: inline;
     letter-spacing: 2px;
     font-size: 280%;
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
 }
-#logo a {
+
+.logo>a {
     text-decoration: none;
     color: inherit;
 }
 
-#navbar {
+.navbar {
     float: right;
     line-height: 75px;
 }
 
-#nav-links {
+.nav-links {
     display: inline;
     list-style-type: none;
     font-size: 110%;
@@ -49,18 +57,18 @@ header {
     letter-spacing: 2px;
 }
 
-#nav-links li {
+.nav-links li {
     display: inline;
     margin-left: 2rem;
 }
 
-#nav-links li a {
+.nav-links li a {
     color: inherit;
     text-decoration: none;
 }
 
 
-#nav-links li a:hover {
+.nav-links li a:hover {
     border: 2px solid #d4af37;
     border-radius: 5px;
     padding: 5px;
@@ -70,14 +78,14 @@ header {
 
 /* hero image */
 
-#hero-outer {
+.hero-outer {
     height: 80vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
 }
 
-#hero-image {
+.hero-image {
     height: 80vh;
     width: 100vw;
     background: url('../assets/images/al-khwarizmi.jpg') no-repeat center center;
@@ -85,7 +93,7 @@ header {
     z-index: 0;
 }
 
-#cover-text {
+.cover-text {
     position: absolute;
     z-index: 1;
     top: 50%;
@@ -93,17 +101,19 @@ header {
     background-color: #835c3b;
 }
 
-#cover-text-content {
+.cover-text-content {
     font-size: 1px;
+    /*use rem*/
     /* "Travelling through time effect" */
     animation: travel 5s forwards;
 }
 
- 
+
 @keyframes travel {
     from {
         font-size: 1px;
     }
+
     to {
         font-size: 30px;
     }
@@ -111,14 +121,15 @@ header {
 
 /* About us section */
 
-#about-us{
+.about-us {
     margin: 1% 7%;
     border: 1px solid #d4af37;
     border-radius: 20px;
     font-weight: 800;
 }
 
-h2, p {
+h2,
+p {
     text-align: center;
     margin: 1%;
 }
@@ -137,8 +148,9 @@ h2, p {
     font-size: 2rem;
 }
 
- 
-.fig-1, .fig-3 {
+
+.fig-1,
+.fig-3 {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -154,7 +166,9 @@ h2, p {
     margin: 3%;
 }
 
-.fig-1 p, .fig-2 p, .fig-3 p {
+.fig-1 p,
+.fig-2 p,
+.fig-3 p {
     font-weight: 800;
     margin: 3%;
 }
@@ -168,7 +182,8 @@ h2, p {
     border-radius: 20px;
 }
 
-.fig-2 img, .fig-3 img {
+.fig-2 img,
+.fig-3 img {
     width: 20%;
     height: 20%;
     margin: 3%;
@@ -196,15 +211,17 @@ span {
 footer {
     background-color: #835c3b;
     width: 100%;
+
 }
 
 .social-media {
     text-align: center;
 }
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
+
 .social-media i {
     font-size: 150%;
     margin: 1%;
@@ -213,55 +230,60 @@ footer {
     position: relative;
 }
 
-i:hover{
+i:hover {
     top: -10px;
-  }
- 
-  /*Survey page */ 
-
-  #form-page {
-    background: repeating-linear-gradient(
-        45deg,
-        #835c3b,
-        #D3AC8B
-
-    );
-    width: 100%;
-    height: 100%;   
-    color: #F7F9F9; 
 }
- 
-  #form-page h2 {
+
+/*Survey page */
+
+.form-page {
+    background: repeating-linear-gradient(45deg,
+            #835c3b,
+            #D3AC8B);
+    width: 100%;
+    height: 100%;
+    color: #F7F9F9;
+}
+
+.form-page h2 {
     text-align: center;
     padding: 2%;
-  }
+}
 
-  label {
+label {
     display: block;
     margin: 0.5rem auto;
-  }
-  fieldset {
+}
+
+fieldset {
     padding: 2rem 0;
     margin: 0 auto;
     width: 80%;
-  }
-  input, textarea{
-    background-color: #D3AC8B ;
+}
+
+input,
+textarea {
+    background-color: #D3AC8B;
     border: 1px solid #D3AC8B;
     color: black;
     overflow: hidden;
-    }
-  input, textarea, select {
+}
+
+input,
+textarea,
+select {
     margin: 1rem 0 0 0;
     width: 60%;
     min-height: 2em;
-    }
-  .inline{
+}
+
+.inline {
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
-    }
-  input[type="submit"]{
+}
+
+input[type="submit"] {
     display: block;
     width: 20%;
     margin: 1rem 5%;
@@ -270,29 +292,38 @@ i:hover{
     border-color: #d4af37;
     background-color: #D3AC8B;
     color: #F7F9F9;
-    }
-    
-  /* for mobile screen sizes from 425px wide and down */
+}
+
+/* for mobile screen sizes from 450px wide and down */
 @media screen and (max-width: 450px) {
-    .fig-1, .fig-2, .fig-3 {
+
+    .fig-1,
+    .fig-2,
+    .fig-3 {
         display: flex;
         flex-direction: column;
     }
-    .fig-1 img, .fig-2 img, .fig-3 img {
+
+    .fig-1 img,
+    .fig-2 img,
+    .fig-3 img {
         width: 50%;
         height: 50%;
     }
+
     header {
         margin: 0 0.5%;
     }
-    #navbar {
+
+    .navbar {
         clear: left;
         float: left;
         margin-left: 0;
         padding-left: 0;
         line-height: 25px;
     }
-    #nav-links {
+
+    .nav-links {
         display: block;
         clear: left;
         float: left;
@@ -300,6 +331,3 @@ i:hover{
         padding-left: 0;
     }
 }
-
-
-
