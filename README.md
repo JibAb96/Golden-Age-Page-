@@ -43,7 +43,7 @@ I used two google fonts that are considered a pair, which are:
 ### Imagery
 The images I use in the website are from different sources credited in the credits section.
 ## Features
-<img src="assets/images/Nav-bar-golden-age.png">
+<img src="assets/images/nav-bar.png">
 
 ### Navigation
 The logo is featured at the top left hand side of the page. The color of the logo relates to the name of the web page. The Raleway font is used to make it look formal.
@@ -59,11 +59,11 @@ The image gives a clear indication as to what the website is about.
 <hr>
 
 ### About us
-<img src="assets/images/About-us-section.png">
+<img src="assets/images/about-us.png">
 <br> The About Us section is presented early to ensure the user understand the reason why this website was created.
 
 ### Figures
-<img src="assets/images/figures-section.png">
+<img src="assets/images/figures.png">
 <br>The figures section shows the great people involved in the development of science.
 It keeps with the golden theme of the website.
 <hr>
@@ -74,12 +74,12 @@ The footer section shows the social medial links using font awesome icons. They 
 <hr>
 
 ### Survey
-<img src="assets/images/Survey-form.png">
+<img src="assets/images/survey-fom.png">
 <br>The survey form serves the purpose to grow the website and to get some user input.
 The background color keeps with brown theme.
 This makes the user feel that they are a part of the website.
 <hr>
-<img src="assets/images/Submt-page.png">
+<img src="assets/images/submit-page.png">
 This is the page that the user will go to once they have submitted their survey answers.
 
 
@@ -149,12 +149,12 @@ I had no bugs when deploying the website as I kept previewing the page and fixin
  The index.html page
  <img src="assets/images/index-html-check.png">
  The survey page
- <img src="assets/images/surey-form.chheck.png">
+ <img src="assets/images/w3c-val-html.png">
  <li>CSS - I used the official Jigsaw validator and found no errors,</li>
  The styles.css
  <img src="assets/images/css-check.png">
  <li>I ran the project through the lighthouse in devtools and found that my accessibilty rating was high.</li>
- <img src="assets/images/dev-tools-html.png">
+ <img src="assets/images/dev-tools.png">
  </ul>
 
 <hr>
