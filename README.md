@@ -2,7 +2,7 @@
 
 The <a href="https://jibab96.github.io/Golden-Age-Page-/">Golden Age</a> website is desined to give the user the experience of traveling through different time periods where great scientific discoveries were made.
 The Golden Age site aims to find major figures in scientific history from all regions and times, giving them their flowers while also giving the user information on their contribution to scientific history. This website has been designed to be responsive on all webpages.
-<img src="assets/images/Untitled.png">
+<img src="assets/images/am-i-resp.png">
 <hr>
 
 
@@ -126,7 +126,7 @@ I used GitHub Pages to deploy the website. This is how I did it:
 Inorder to Fork the Golden Age Page repository I logged into GitHub, then found the Golden Age repository and then clicked on the Fork button.
 <br>For me to Clone the Golden Age page I logged in to GitHub, went to the repository for this project.
 I then clicked on the code button, selected whether I would like to clone with HTTPS, SSH or GitHub CLI and copied the link shown.
-I opened the terminal in my code editor and changed the current working directory to the location I wanted to use for the cloned directory. I then typed git clone into the terminal and then pasted the link I copied earlier.
+I opened the terminal in my code editor and changed the current working directory to the location I wanted to use for the cloned directory. I then typed git clone into the terminal and then pasted the link I copied earlier. You need a http server installed.
 <hr>
 
 
